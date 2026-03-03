@@ -1,0 +1,2 @@
+Sometimes I make a mistake, but I have trouble reverting to that step.
+And when I copy my thingsIlike.txt from part 1, It said that there's already a file that have the same name. Should I just delete the former file and replace it with my own?
