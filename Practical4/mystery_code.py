@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:
+# Answer: This code generates 10 random numbers between 1 and 10, calculates their sum and then print it out.
 
 # Import libraries
 # randint allows drawing a random number,
@@ -10,12 +10,12 @@ from random import randint
 # e.g. ceil(4.2)=5
 from math import ceil
 
-total_rand = 0
-progress=0
+total_rand = 0 #initialise the total number
+progress=0 #initialise the number of the loops
 while progress<=10:
 	progress+=1
 	n = randint(1,10) #generate a random number between 1 and 10
 	total_rand+=n #add the random number to the total
 
-print(total_rand) #print the totol number 
+print(total_rand) #print the total number 
 
