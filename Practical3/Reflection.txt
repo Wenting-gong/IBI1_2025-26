@@ -1,2 +1,3 @@
-Sometimes I make a mistake, but I have trouble reverting to that step.
-And when I copy my thingsIlike.txt from part 1, It said that there's already a file that have the same name. Should I just delete the former file and replace it with my own?
+Before having this lecture, when I made mistakes, I have no idea how to revert to that step. So, I deleted everything to start again.
+Now I have a better understanding of branches and know how to fix bugs in a much easier way.
+But I'm still wondering if it is possible to make changes to previous messages.
