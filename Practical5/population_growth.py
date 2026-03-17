@@ -7,11 +7,15 @@ print(change)
 
 #change the array into list and sort it
 change=change.tolist()
+dict={}
+coun=['UK','China','Italy','Beazil','USA']
+for i in range(len(change)):
+    dict[change[i]]=coun[i]
 sorted_change=sorted(change)
 sorted_change.reverse()
 print(sorted_change)
 #Result:[3.7481259370314843, 2.5633293124246075, 1.629913710450626, -0.8417508417508417, -1.1220196353436185]
-print('Uk has the largest increase of',sorted_change[0],'China has the largest decrease of',change[-1])
+print(dict[change[0]],'has the largest population increase of',change[0],dict[change[-1]],'has the largest decrease of',change[-1])
 
 #draw the bar chart
 import matplotlib.pyplot as plt
@@ -20,7 +24,6 @@ population_change=change
 ind=np.arange(N)
 width=0.35
 p1=plt.bar(ind,population_change,width)
-plt.xlabel('country')
 plt.ylabel('population change')
 plt.title('Percentage change of population in different countries')
 plt.xticks(ind,('UK','China','Italy','Brazil','USA'))
