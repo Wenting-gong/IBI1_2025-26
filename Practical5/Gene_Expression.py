@@ -1,5 +1,6 @@
 #create the library
 gene={'TP53':12.4, 'EGFR':15.1, 'BRCA1':8.2, 'PTEN':5.3, 'ESR1':10.7}
+print('The initial dictionary is ',gene)
 gene['MYC']=11.6
 
 #draw the bar chart
