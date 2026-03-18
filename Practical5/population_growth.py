@@ -22,7 +22,7 @@ sorted_change.reverse()
 print('Here is the sorted value: ',sorted_change)
 
 #use the dictionary to find the country name by value and print the message
-print(dict[change[0]],'has the largest population increase of',change[0],dict[change[-1]],'has the largest decrease of',change[-1])
+print(dict[sorted_change[0]],'has the largest population increase of',sorted_change[0],dict[sorted_change[4]],'has the largest decrease of',sorted_change[4])
 
 #draw the bar chart
 import matplotlib.pyplot as plt
