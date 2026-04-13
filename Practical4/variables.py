@@ -17,9 +17,14 @@ else:
 #The result:The population growth decelerates.
 
 #create X and Y
-X=True
-Y=False
-#get W
-W=X or Y
-print('W=',W)
-#The result: W= True
+list=[[True,False],[False,True],[True,True],[False,False]]
+for i in list: 
+    X=i[0]
+    Y=i[1]
+    W=X or Y
+    print(f'X:{X},Y:{Y},W:{W}')
+#The result: 
+X:True,Y:False,W:True
+X:False,Y:True,W:True
+X:True,Y:True,W:True
+X:False,Y:False,W:False
