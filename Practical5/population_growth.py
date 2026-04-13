@@ -32,6 +32,7 @@ ind=np.arange(N)
 width=0.35
 p1=plt.bar(ind,population_change,width)
 plt.ylabel('population change')
+plt.xlabel('country')
 plt.title('Percentage change of population in different countries')
 plt.xticks(ind,('UK','China','Italy','Brazil','USA'))
 plt.yticks=(np.arange(-1.5,4.0,0.5))
