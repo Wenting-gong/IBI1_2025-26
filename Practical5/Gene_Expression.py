@@ -10,6 +10,7 @@ ind=np.arange(len(gene))
 width=0.35
 p1=plt.bar(ind, gene.values(), width)
 plt.ylabel('Expression value')
+plt.xlabel('gene')
 plt.title('Expression values of genes')
 plt.xticks(ind,(gene.keys()))
 plt.yticks(np.arange(0,16,8))
