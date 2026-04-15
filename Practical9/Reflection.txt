@@ -1,0 +1,10 @@
+This practical is a bit hard for me:
+I got an error message when I first run my SIR.py, saying that my probability of infection is a negative value. And I spent quite a while debugging.
+Also, the logic of calculation needed time to understand.
+And I had trouble understanding the use of array.
+
+Things I like about this practical:
+Seeing the plot came out correctly is really enjoyable and I had fun in changing colors of the lines and beautifying my plot.
+
+The most important things I learned:
+Use np.random.choice() for possibility analysis.
