@@ -13,7 +13,8 @@ dalys_data=pd.read_csv('dalys-rate-from-all-causes.csv')
 #check specific value (showing the third and fourth columns for the first 10 rows)
 record=dalys_data.iloc[0:10,2:4]
 print(record)
-print(record.describe()) #1998 reported the maximum DALYs in the first 10 years in Afghanistan
+print(record.describe()) 
+#Result: 1998 reported the maximum DALYs in the first 10 years in Afghanistan
 
 #get years in Zimbabwe
 my_rows=[]
