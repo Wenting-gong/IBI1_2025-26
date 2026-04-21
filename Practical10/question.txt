@@ -1,2 +1,5 @@
 How has the relationship between the DALYs in China and the UK changed over time?
 Plot a line chart to show the change of their difference over time.
+
+Line number: 46-66
+Result: The DALYs in China and UK became similar and their difference reduced over time.
