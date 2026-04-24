@@ -24,7 +24,11 @@ for i in range(len(dalys_data)):
     else:
         flag=False
     my_rows.append(flag)
-print(dalys_data.loc[my_rows,'Year'])
+Zimbabwe_year=dalys_data.loc[my_rows,'Year']
+print(Zimbabwe_year)
+first_year=Zimbabwe_year.min()
+last_year=Zimbabwe_year.max()
+print(f"The first year is {first_year}, the last year is {last_year}")
 #Result: first year is 1990, last year is 2019
 
 #Recent year situations across countries
