@@ -4,9 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-#change directory to where my dalys-rate-from-all-caises.csv is stored
-os.chdir('/Users/apple/Documents/IBI/IBI1_2025-26/IBI1_2025-26/Practical10')
-
 #read csv file and fetch information
 dalys_data=pd.read_csv('dalys-rate-from-all-causes.csv')
 
