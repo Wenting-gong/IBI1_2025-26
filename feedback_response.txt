@@ -1,0 +1,6 @@
+Week3: Feedback said my commit message can be more informative. 
+    I have added more details when I made changes to my files.
+Week4: In creatine_clearance.py, I change the structure from nested if-else branches into flat if-elif-else statement to make the program stop when data is out of range.
+    In mystery_code.py, I corrected my explanation for how many numbers would be generated in that code.
+    In variables.py, I add the full truth table.
+Week5: I add x-axis labels in Gene_Expression.py and population_growth.py.
