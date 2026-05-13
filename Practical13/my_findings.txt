@@ -1,0 +1,16 @@
+• The length and subcellular localisation of the human DLX5 protein.
+(1)lenth: 289
+(2)subcellular localisation: nucleus
+• The range of percentage identities in the reported online BLAST results: 52.3-100%
+• The alignment score and percentage of identical amino acids for each of the
+three comparisons that you performed using Python
+human and mouse:
+score:10
+percentage:0.9653979238754326
+human and random:
+score:276
+percentage:0.04498269896193774
+random and mouse: 
+score:277
+percentage: 0.04152249134948094
+• human and mouse DLX5 are most closely related.
